@@ -1,0 +1,6 @@
+This is the project identifier; you will need to put it in a comment
+in any source code or header file you upload to the autograder.  You
+should also edit the right hand side of the "IDENTIFIER = " line of
+the Makefile.
+
+39E995D00DDE0519FDF5506EED902869AEC1C39E

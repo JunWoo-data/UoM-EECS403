@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/youngjun/Dropbox/UMichig/21-winter/eecs 403/project/project0/Project0-starter'
+g++ -std=c++1z -Wconversion -Wall -Werror -Wextra -pedantic  -O3 -DNDEBUG -c project0.cpp
+g++ -std=c++1z -Wconversion -Wall -Werror -Wextra -pedantic  -O3 -DNDEBUG project0.o -o project0
+make: Leaving directory `/Users/youngjun/Dropbox/UMichig/21-winter/eecs 403/project/project0/Project0-starter'
+ 
