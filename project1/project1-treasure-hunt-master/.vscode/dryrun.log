@@ -1,0 +1,10 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/youngjun/Dropbox/UMichig/21-winter/EECS403/project/project1/project1-treasure-hunt-master'
+g++ -std=c++1z -Wconversion -Wall -Werror -Wextra -pedantic  -O3 -DNDEBUG -c HuntSimulationClass.cpp
+g++ -std=c++1z -Wconversion -Wall -Werror -Wextra -pedantic  -O3 -DNDEBUG -c RowColumnClass.cpp
+g++ -std=c++1z -Wconversion -Wall -Werror -Wextra -pedantic  -O3 -DNDEBUG -c TerrainClass.cpp
+g++ -std=c++1z -Wconversion -Wall -Werror -Wextra -pedantic  -O3 -DNDEBUG -c TreasureMap.cpp
+g++ -std=c++1z -Wconversion -Wall -Werror -Wextra -pedantic  -O3 -DNDEBUG -c hunt.cpp
+g++ -std=c++1z -Wconversion -Wall -Werror -Wextra -pedantic  -O3 -DNDEBUG HuntSimulationClass.o RowColumnClass.o TerrainClass.o TreasureMap.o hunt.o -o hunt
+make: Leaving directory `/Users/youngjun/Dropbox/UMichig/21-winter/EECS403/project/project1/project1-treasure-hunt-master'
+ 
