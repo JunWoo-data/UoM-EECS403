@@ -1,0 +1,10 @@
+CREATE a 2 string string col1 col2
+GENERATE FOR a hash INDEX ON col1
+INSERT INTO a 1 rows
+a b
+CREATE a 1 string col1
+INSERT INTO b 1 rows
+vol1
+REMOVE b
+PRINT FROM a 1 col1 ALL
+QUIT

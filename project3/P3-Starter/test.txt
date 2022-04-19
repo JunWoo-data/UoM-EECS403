@@ -1,0 +1,7 @@
+CREATE enact 2 bool double variation touch 
+GENERATE FOR enact hash INDEX ON variation
+INSERT INTO enact 1 ROWS
+false 66.8469
+GENERATE FOR enact hash INDEX ON touch
+PRINT FROM enact 1 touch WHERE touch = 66.8469
+QUIT
