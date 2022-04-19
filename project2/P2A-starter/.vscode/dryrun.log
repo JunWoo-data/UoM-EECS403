@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/youngjun/Dropbox/UMichig/21-winter/EECS403/project/project2/P2A-starter'
+g++ -std=c++1z -Wconversion -Wall -Werror -Wextra -pedantic  -O3 -DNDEBUG -c PlanetClass.cpp
+g++ -std=c++1z -Wconversion -Wall -Werror -Wextra -pedantic  -O3 -DNDEBUG -c WarfareSimulation.cpp
+g++ -std=c++1z -Wconversion -Wall -Werror -Wextra -pedantic  -O3 -DNDEBUG -c galaxy.cpp
+g++ -std=c++1z -Wconversion -Wall -Werror -Wextra -pedantic  -O3 -DNDEBUG PlanetClass.o WarfareSimulation.o galaxy.o -o galaxy
+make: Leaving directory `/Users/youngjun/Dropbox/UMichig/21-winter/EECS403/project/project2/P2A-starter'
+ 

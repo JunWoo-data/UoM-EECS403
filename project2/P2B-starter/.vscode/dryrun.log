@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/youngjun/Dropbox/UMichig/21-winter/EECS403/project/project2/P2B-starter'
+ 
+Makefile:141: warning: overriding commands for target `testPQ'
+Makefile:125: warning: ignoring old commands for target `testPQ'
+ 
+g++ -std=c++1z -Wconversion -Wall -Werror -Wextra -pedantic  -O3 -DNDEBUG -g3 -DDEBUG   testPQ.cpp -o  testPQ
+make: Leaving directory `/Users/youngjun/Dropbox/UMichig/21-winter/EECS403/project/project2/P2B-starter'
+ 
